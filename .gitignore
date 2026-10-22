@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+.pytest_cache/
+venv/
+.venv/
+
+# node / build
+node_modules/
+dist/
+
+# local data: vector index, uploads, SQLite registry
+backend/data/
+data/
+*.sqlite3
+*.db
+*.log
+
+# editors
+.vscode/
+.idea/
